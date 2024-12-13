@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audit_trails",
+  "info": {
+    "singularName": "audit-trail",
+    "pluralName": "audit-trails",
+    "displayName": "Audit Trail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "action": {
+      "type": "enumeration",
+      "enum": [
+        "create",
+        "delete"
+      ]
+    },
+    "collection": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}
